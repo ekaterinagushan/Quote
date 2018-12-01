@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
+
 .square{
 display: flex;
 width: 320px;
@@ -11,7 +12,7 @@ margin-top: 2437px;
 background-color: #121E59;
 z-index: 3;
 }
-/* 
+/*
 .circle{
 display: flex;
 border-radius: 50%;
@@ -24,6 +25,21 @@ opacity: 0.2;
 filter: blur(4px);
 z-index: 1;
 } */
+
+ .circle{
+margin-left: 249px;
+margin-top: -118px;
+display: flex;
+border-radius: 50%;
+width: 120px;
+height: 120px;
+
+background-color: #F6C000;
+opacity: 0.2;
+filter: blur(4px);
+z-index: 1;
+} 
+
 
 .quotes p{
   position: relative;
