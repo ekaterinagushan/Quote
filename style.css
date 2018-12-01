@@ -1,0 +1,61 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+.square{
+display: flex;
+width: 320px;
+height: 311px;
+margin-left: 0px;
+margin-top: 2437px;
+background-color: #121E59;
+z-index: 3;
+}
+/* 
+.circle{
+display: flex;
+border-radius: 50%;
+width: 120px;
+height: 120px;
+top: -215px;
+left: 249px;
+background-color: #F6C000;
+opacity: 0.2;
+filter: blur(4px);
+z-index: 1;
+} */
+
+.quotes p{
+  position: relative;
+  width: 98px;
+  height: 373px;
+  margin-top: -280px;
+  left: 28px;
+  font-family: PT Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 288px ;
+  text-align: center;
+  transform: rotate(-180deg);
+  color: #F6C000;
+  letter-spacing: -40px;
+
+  opacity: 0.1;
+  z-index: 2;
+
+
+}
+/* .quotes p{
+  margin-top: 2529px;
+  margin-left: 45px;
+  height: 127px;
+  display: flex;
+  width: 100%;
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 24px;
+  text-align: center;
+} */
